@@ -27,3 +27,11 @@ const IsSumOddCheck: IsSumOddCheck = Object.assign (
 console.log ('IsSumOddCheck(1, 2) => ', IsSumOddCheck(3, 4));
 console.log (IsSumOddCheck.type);
 console.log (IsSumOddCheck.calculate(2, 3));
+
+/**
+ * Interfaces of the function type (as used above) can be helpful to describe constructor functions.
+ * A constructor function is similar to a class whose job is to create objects (instances).
+ * We only had constructor functions up until ES5 to mimic a class in JavaScript.
+ * Therefore, TypeScript compiles classes to constructor functions if you are targeting ES5 or below.
+ */
+
